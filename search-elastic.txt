@@ -1,0 +1,9 @@
+{
+    "query" : {
+        "multi_match" : {
+            "query" : "laptop",
+            "fields" : ["description", "category", "subcategory"],
+            "analyzer" : "elastic_synonym_analyzer"
+        }
+    }
+}

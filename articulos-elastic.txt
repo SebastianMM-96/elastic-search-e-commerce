@@ -1,0 +1,8 @@
+{"index" : {"_index" : "omicron-products"}}
+{"id" : "001", "description" : "Laptop Lenovo Thinkpad T490 14\" Intel Core i5 8265U Disco duro 256 GB SSD Ram 8 GB Windows 10 Pro Color Negro", "category" : "Computadoras", "subcategory" : "Portátiles / Tablets"}
+{"index" : {"_index" : "omicron-products"}}
+{"id" : "001", "description" : "Laptop HP EliteBook 1040 G4 14\" Intel Core i5 7200U Disco duro 256 GB SSD Ram 8 GB Windows 10 Pro Color Plata", "category" : "Computadoras", "subcategory" : "Portátiles / Tablets"}
+{"index" : {"_index" : "omicron-products"}}
+{"id" : "001", "description" : "NOTEBOOK LENOVO 330-14AST AMD A6-9225 8GB 1TB W10H AZUL 81D5001ELM A4600HU", "category" : "Computadoras", "subcategory" : "Portátiles / Tablets"}
+{"index" : {"_index" : "omicron-products"}}
+{"id" : "001", "description" : "Desktop Lenovo Thinkcenter M720q Intel Core i7 8700T Disco duro 1 TB Ram 8 GB Windows 10 Pro Color Negro", "category" : "Computadoras", "subcategory" : "Escritorio"}

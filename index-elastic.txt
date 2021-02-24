@@ -1,0 +1,29 @@
+{
+    "settings" : {
+        "analysis" : {
+            "filter" : {
+                "my_synonym" : {
+                    "type" : "synonym",
+                    "synonyms" : [
+                        "laptop, portátil, pc, computadora, desktop, cpu, escritorio",
+                        "escritorio, laptop, portátil, pc, computadora, desktop, cpu",
+                        "cpu, escritorio, laptop, portátil, pc, computadora, desktop",
+                        "desktop, cpu, escritorio, laptop, portátil, pc, computadora",
+                        "computadora, desktop, cpu, escritorio, laptop, portátil, pc",
+                        "pc, computadora, desktop, cpu, escritorio, laptop, portátil",
+                        "portátil, pc, computadora, desktop, cpu, escritorio, laptop"
+                    ]
+                }
+            },
+            "analyzer" : {
+                "elastic_synonym_analyzer" : {
+                    "tokenizer" : "standard",
+                    "filter" : [
+                        "lowercase",
+                        "my_synonym"
+                    ]
+                }
+            }
+        }
+    }
+}
